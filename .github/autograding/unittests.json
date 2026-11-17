@@ -1,0 +1,50 @@
+[
+  {
+    "name": "test_add_item",
+    "function": "test_add_item",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_add_item_twice",
+    "function": "test_add_item_twice",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_total",
+    "function": "test_total",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_add_item_negative_price",
+    "function": "test_add_item_negative_price",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_remove_item",
+    "function": "test_remove_item",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_remove_unknown_item",
+    "function": "test_remove_unknown_item",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_apply_discount",
+    "function": "test_apply_discount",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_apply_discount_invalid",
+    "function": "test_apply_discount_invalid",
+    "timeout": 10,
+    "points": 1
+  }
+]
