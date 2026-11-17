@@ -42,8 +42,7 @@ class ShoppingCart:
         :param name: Bezeichnung des Artikels
         :raises KeyError: wenn der Artikel nicht im Warenkorb ist
         """
-        # TODO Teil 3: Ersetzen Sie diesen Stub durch Code
-        raise NotImplementedError('remove_item ist noch nicht umgesetzt')
+        del self.items[name]
 
     def apply_discount(self, percent):
         """
@@ -51,5 +50,6 @@ class ShoppingCart:
         :param percent: Rabatt in Prozent, erlaubt sind 0 bis 50
         :raises ValueError: wenn der Rabatt kleiner als 0 oder grösser als 50 ist
         """
-        # TODO Teil 3: Ersetzen Sie diesen Stub durch Code
-        raise NotImplementedError('apply_discount ist noch nicht umgesetzt')
+        if percent < 0 or percent > 50:
+            raise ValueError('Der Rabatt muss zwischen 0 und 50 Prozent liegen')
+        self.discount = percent
